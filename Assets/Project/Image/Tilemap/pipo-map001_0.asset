@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: map002
+  m_Name: pipo-map001_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -509596757, guid: 3ee85492d03ada741b1bc09c41c8ba42, type: 3}
+  m_Sprite: {fileID: 942638049, guid: 18a6d5fdde10f4b44af9c95ade69954d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

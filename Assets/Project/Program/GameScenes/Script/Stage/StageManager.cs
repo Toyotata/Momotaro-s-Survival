@@ -22,12 +22,12 @@ public class StageManager : MonoBehaviour
     void Start()
     {
         //マップの最大値設定
-        i_max_x = 0;
-        i_max_y = 0;
+        i_max_x = 25;
+        i_max_y = 15;
 
         //マップの最小値設定
-        int i_min_x = 0;
-        int i_min_y = 0;
+        i_min_x = -25;
+        i_min_y = -15;
 
         StartCoroutine(SetTile());
     }
@@ -40,9 +40,9 @@ public class StageManager : MonoBehaviour
     {
         ////マップをクリアする（重複しないようにする）
         tilemap.ClearAllTiles();
-        for (int y = i_min_y-22; y < i_max_y+23; y++)
+        for (int y = i_min_y; y < i_max_y; y++)
         {
-            for (int x = i_min_x-50; x < i_max_x+28; x++)
+            for (int x = i_min_x; x < i_max_x; x++)
             {
                 tilemap.SetTile(new Vector3Int(x, y, 0), grassTile);
                 yield return new WaitForEndOfFrame();

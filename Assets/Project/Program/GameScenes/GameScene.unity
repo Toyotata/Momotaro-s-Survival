@@ -357,7 +357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 62616478}
-  grassTile: {fileID: 11400000, guid: a4b0c4c655bfbd140b2984679abc0dd9, type: 2}
+  grassTile: {fileID: 11400000, guid: adae5a7aedd09584bb322c5ffcc05478, type: 2}
 --- !u!4 &197299150
 Transform:
   m_ObjectHideFlags: 0
@@ -398,7 +398,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1998241045}
   m_Enabled: 1
-  m_CellSize: {x: 0.24, y: 0.24, z: 0}
+  m_CellSize: {x: 0.4, y: 0.4, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
